@@ -35,7 +35,7 @@ const About = () => {
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
-                            <small>4+ Completed including a Reverse-shell program written in Python</small>
+                            <small>3+ Completed including a Reverse-shell program written in Python</small>
                         </article>
                     </div>
 
