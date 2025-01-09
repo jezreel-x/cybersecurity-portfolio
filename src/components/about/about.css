@@ -114,9 +114,10 @@
 }
 
 @media screen and (max-width: 350px) {
-    .about__card {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        width: 100%;
+    .about__cards {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.8rem;
     }
 }
