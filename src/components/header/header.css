@@ -64,19 +64,9 @@ header {
     font-size: 1rem;
 }
 
-/*============== scroll down ==============*/
-@media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
-}
 
-/*============== scroll down ==============*/
-@media screen and (max-width: 1024px) {
-    header {
-        height: 100vh;
-    }
-
+/* scroll down */
+@media screen and (max-width: 600px) {
 
     .social-profiles,
     .scroll__down {
