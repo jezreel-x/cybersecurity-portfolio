@@ -3,7 +3,6 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio-photo.png'
 import IMG2 from '../../assets/portfolio-photo(2).png'
 import IMG3 from '../../assets/portfolio-photo(3).png'
-import IMG4 from '../../assets/portfolio4.jpg'
 
 //Do not use the images in production
 const data = [
@@ -28,14 +27,7 @@ const data = [
         homes. Perfomed pen-testing and vulnerability assessments to improve its web security.`,
         github: '#',
         demo: 'https://qwarqo.com',
-    },
-    {
-        id: 4,
-        image: IMG4,
-        title: 'A graduation project was done by my team. A website scans malicious content in URLs and blocks sites on blacklists.',
-        github: 'https://github.com/NguyenVu1310/threeblock',
-        demo: 'https://3block.systems.netlify.app/',
-    },
+    }
 ]
 
 
