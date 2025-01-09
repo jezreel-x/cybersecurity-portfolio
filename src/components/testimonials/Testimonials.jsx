@@ -1,9 +1,8 @@
-import React from 'react'
-import './testimonials.css'
-import AVT1 from '../../assets/avatar1.jpg'
-import AVT2 from '../../assets/avatar2.jpg'
-import AVT3 from '../../assets/avatar3.jpg'
-import AVT4 from '../../assets/avatar4.jpg'
+import React from 'react';
+import './testimonials.css';
+import AVT1 from '../../assets/avatar1.jpg';
+import AVT2 from '../../assets/avatar2.jpg';
+import AVT3 from '../../assets/avatar3.jpg';
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -51,7 +50,7 @@ const Testimonials = () => {
                         return (
                             <SwiperSlide key={index} className="testimonial">
                                 <div className="client__avatar">
-                                    <img src={avatar} />
+                                    <img src={avatar} alt='#' />
                                 </div>
                                 <h5 className='client__name'>{name}</h5>
                                 <small className='client__review'>{review}</small>
