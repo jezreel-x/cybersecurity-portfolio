@@ -19,7 +19,7 @@ const data = [
         image: IMG2,
         title: 'My Personal Portfolio Website uses React and is deployed on Netlify.',
         github: 'https://github.com/jezreel-x',
-        demo: 'https://nguyenvu-personal-site.netlify.app/',
+        demo: 'https://cybersec-portfolio.netlify.app/',
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ const data = [
         image: IMG4,
         title: 'A graduation project was done by my team. A website scans malicious content in URLs and blocks sites on blacklists.',
         github: 'https://github.com/NguyenVu1310/threeblock',
-        demo: 'https://3block.systems/',
+        demo: 'https://3block.systems.netlify.app/',
     },
 ]
 
