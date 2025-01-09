@@ -73,7 +73,7 @@
 }
 
 
-/* Media Queries (Medium Devices */
+/* Media Queries */
 @media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;
@@ -86,7 +86,7 @@
     }
 
     .about__content {
-        margin: 1rem 0 1.5rem;
+        margin: 1rem 0 1rem;
     }
 }
 
@@ -105,9 +105,18 @@
 
     .about__content {
         text-align: center;
+        margin: 1rem 0 1rem;
     }
 
     .about__content p {
         margin: 1.5rem 0
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about__card {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        width: 100%;
     }
 }
