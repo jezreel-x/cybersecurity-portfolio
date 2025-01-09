@@ -44,8 +44,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* =============== Tạo vân cho background ================== 
-    background-image: url(../src/assets/bg-texture.png);*/
+    /* background-image: url(../src/assets/bg-texture.png);*/
 }
 
 /* =============== Genaral Style ================== */
@@ -67,8 +66,7 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
-    /* height: 100vh; Khoảng các giữa các layout: home, about,...*/
+    margin-top: 4rem;
 }
 
 section>h2,
@@ -141,6 +139,6 @@ img {
     }
 
     section>h2 {
-        margin-top: 6rem;
+        margin-top: 3rem;
     }
 }

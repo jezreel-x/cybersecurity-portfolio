@@ -19,7 +19,6 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    /** độ nghiên ảnh about*/
     transform: rotate(9deg);
     transition: var(--transition);
 }
@@ -70,7 +69,7 @@
 }
 
 
-/* ================== Media Queries (Medium Devices ==============*/
+/* Media Queries (Medium Devices */
 @media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;
@@ -88,10 +87,10 @@
 }
 
 
-/* ================== Media Queries (Medium Devices ==============*/
+/* Media Queries (Medium Devices) */
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
+        width: 60%;
         margin: 0 auto 3rem;
     }
 
