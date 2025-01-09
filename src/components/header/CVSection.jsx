@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/MUTONGA CV - Cybersec.pdf'
+import CV from '../../assets/Mutonga-CV-Cybersec.pdf'
 
 const CVSection = () => {
     return (

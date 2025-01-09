@@ -16,18 +16,23 @@ import 'swiper/css/pagination';
 const data = [
     {
         avatar: AVT1,
-        name: 'A',
-        review: 'agagdf ag aga asga a a ag',
+        name: 'Mary Watiri',
+        review: `As his co-worker, I was pleased to work with such an industrious individual. Showed prowess, zeal and passion in the 
+        Cybersecurity field - while constantly initiating a strong determination to grow in this career, both
+        from a personal and community perspective.`,
     },
     {
         avatar: AVT2,
-        name: 'A',
-        review: 'agagdf ag aga asga a a ag',
+        name: 'Alex Maragia',
+        review: `Showed extra due diligence in his work. Good in communication skills and team-collaboration. 
+        Very proud.`,
     },
     {
         avatar: AVT3,
-        name: 'A',
-        review: 'agagdf ag aga asga a a ag',
+        name: 'Kirinyet Brian',
+        review: `Was pleased to work with one of the most brilliant minds in Cybersecurity industry, very committed
+        and down to earth to solve any problems that came his way. His technical skills were well beyond my expectations,
+        I would highly recommend him to anyone.`,
     },
 
 ]
@@ -35,7 +40,7 @@ const data = [
 const Testimonials = () => {
     return (
         <section id='testimonials'>
-            <h5>Review from Lecturers</h5>
+            <h5>Reviews</h5>
             <h2>Testimonials</h2>
 
             <Swiper className="container testimonials__container"
