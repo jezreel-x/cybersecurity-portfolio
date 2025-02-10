@@ -3,11 +3,11 @@ import './header.css';
 const texts = ["Cybersecurity Engineer", "Cybersecurity Analyst", "Cybersecurity consultant"];
 
 const TextAnimation = () => {
-  const [index, setIndex] = useState(0);
-  const [charIndex, setCharIndex] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [text, setText] = useState('');
-  const [speed, setSpeed] = useState(150);
+  const [index, setIndex] = useState(0); // Track the current word in the texts array
+  const [charIndex, setCharIndex] = useState(0); // Tracks the character position in the current word
+  const [isDeleting, setIsDeleting] = useState(false); // Determines if text is being deleted
+  const [text, setText] = useState(''); // Holds the text being displayed
+  const [speed, setSpeed] = useState(150); // Controls the typing/deleting speed
 
   useEffect(() => {
     const handleTyping = () => {
